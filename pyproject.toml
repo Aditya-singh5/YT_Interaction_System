@@ -1,0 +1,20 @@
+[project]
+name = "yt-interaction-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-anthropic>=1.7.4",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "python-dotenv>=1.2.3",
+    "pytube>=15.0.0",
+    "pytubefix>=11.1.0",
+    "youtube-transcript-api>=1.2.4",
+    "yt-dlp>=2026.8.19",
+]
+
+[tool.uv.sources]
+pytube = { git = "https://github.com/pytube/pytube" }

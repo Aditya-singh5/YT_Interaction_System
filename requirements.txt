@@ -1,0 +1,8 @@
+pytube 
+youtube-transcript-api
+langchain-community
+langchain
+langchain-classic
+langchain-anthropic
+yt-dlp
+python-dotenv
